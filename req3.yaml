@@ -21,7 +21,7 @@
 
    - name: Check result
      ios_command:
-       commands: sh ip access-lists extended REQ3  
+       commands: sh ip access-lists REQ3  
      register: result
      tags: show
 
